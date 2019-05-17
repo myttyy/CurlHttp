@@ -1,0 +1,20 @@
+{
+    "name": "myttyy/curl-http",
+    "description": ">=PHP7.1 基于curl批处理Http请求类分组--可控并发异步",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "myttyy",
+            "email": "1297942619@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "myttyy\\": "src/"
+        }
+    }
+}
